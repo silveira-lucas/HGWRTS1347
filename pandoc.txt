@@ -1,0 +1,4 @@
+pandoc Hogwarts_1347.tex -o Hogwarts_1347.epub \
+  --css=style.css \
+  --number-sections \
+  --toc
