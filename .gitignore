@@ -1,26 +1,29 @@
-# LaTeX temporary files
+footnotes/
+images/
+old/
+
+# Ignore all TeX source files
+*.tex
+
+# Ignore LaTeX temporary files
 *.aux
 *.log
 *.out
 *.toc
-*.lof
-*.lot
+*.synctex.gz
 *.fls
 *.fdb_latexmk
-*.synctex.gz
-*.bbl
-*.blg
 
-# macOS
+# Ignore Word files
+*.docx
+
+#pandoc
+pandoc.txt
+style.css
+
+# Ignore macOS junk
 .DS_Store
 
-# Editors
-.vscode/
-.idea/
-
-# Build folders
-build/
-
-# Python cache (if you use scripts)
-__pycache__/
-*.pyc
+# Keep these outputs
+!Hogwarts_1347.pdf
+!Hogwarts_1347.epub
